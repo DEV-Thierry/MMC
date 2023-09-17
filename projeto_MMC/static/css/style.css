@@ -1,0 +1,65 @@
+
+body{
+    height: 100%;
+}
+
+.carrosel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    max-height: 550px;   
+    overflow: hidden;
+    position: relative;
+}
+
+.carrosel-item{
+    visibility:visible;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+      -webkit-align-items: center;
+    -webkit-justify-content: flex-end;
+    position: relative;
+    background-color: #fff;
+    flex-shrink: 0;
+   -webkit-flex-shrink: 0;
+    position: relative;
+    z-index: 0;
+  transition: 0.6s all linear;
+}
+
+.carrosel-item_info{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+
+
+    order: 1;
+    left: 0;
+    margin: auto;
+    padding: 0 40px;
+    width: 40%;
+}
+
+
+.carrosel-item_image{
+    width: 60%;
+    height: 100%;
+    
+}
+
+
+
+.carrosel-item--1 .carrosel-item_image{
+    background-image: url('https://monoskop.org/images/8/8b/Tarsila_do_Amaral_1928_Abaporu.jpg');
+}
